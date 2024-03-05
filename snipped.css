@@ -344,12 +344,16 @@ h1 {
     margin-right: 4rem;
 } 
 
-.intro-banner .intro-subnav .subnav-button {
-    margin: .625rem .5rem;
-    padding: .5rem 1.5rem;
-    border-radius: 1.5rem;
-    background-color: #855CD6;
-    color: rgb(255, 255, 255); 
+.intro-banner .intro-subnav .subnav-button:not(.snipcss0-3-27-28):not(.snipcss0-3-27-30):not(.snipcss0-3-27-32) {
+    background-color: #FFF;
+    color: #855CD6;
+}
+
+.snipcss0-3-27-28,
+.snipcss0-3-27-30,
+.snipcss0-3-27-32 {
+    background-color: #855CD6; 
+    color: #FFF;
 }
 
 
